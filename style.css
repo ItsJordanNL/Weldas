@@ -122,23 +122,45 @@ body {
 /*================================== Einde header ============================== */
 
 .footer{
-    padding: 2% 0;
-    height:400px;
+    padding: 1.5625rem 0;
+    height:32rem;
     background-color: var(--color-dark-blue-);
 }
 
-.text{
-    color:white;
-    font-size: 1.125rem;
-    padding-left: 12.5px;
+.footer-content{
+    margin: 0 12.5px;
 }
+
+.footer-header{
+    color: var(--color-white);
+    font-size: 1.125rem;
+    padding-bottom: 10px;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    font-family: Cabin, Arial, Helvetica, sans-serif;
+}
+
+.footer-links ul{
+    list-style: none;
+}
+
+.footer-links ul li{
+    font-size: 1.1rem;
+    padding: .625rem 0;
+    text-transform: capitalize;
+}
+
+.footer-navlink {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+
 
 .mapouter {
     position: relative;
     text-align: right;
-    width: calc(100% - 25px);
     height: 225px;
-    margin: 0 12.5px;
 }
 
 .gmap_canvas {
