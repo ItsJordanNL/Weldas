@@ -32,7 +32,9 @@ body {
 }
 
 /* ===================================Einde HTML indeling ====================================== */
-
+main {
+    height: 1000px;
+}
 /* ==================== Top navbar ============================= */
 
 .navbar {
@@ -121,33 +123,40 @@ body {
 
 /*================================== Einde header ============================== */
 
-.footer{
+.footer {
     padding: 1.5625rem 0;
-    height:32rem;
+    height: 29rem;
     background-color: var(--color-dark-blue-);
 }
 
-.footer-content{
+.footer-content {
     margin: 0 12.5px;
 }
 
-.footer-header{
+.footer-header {
     color: var(--color-white);
     font-size: 1.125rem;
     padding-bottom: 10px;
     font-size: 1.25rem;
     text-transform: uppercase;
     font-family: Cabin, Arial, Helvetica, sans-serif;
+    font-weight: bold !important;
+    ;
 }
 
-.footer-links ul{
+.footer-links ul {
     list-style: none;
 }
 
-.footer-links ul li{
+.footer-links ul li {
     font-size: 1.1rem;
-    padding: .625rem 0;
+    padding: .525rem 0;
     text-transform: capitalize;
+    border-top: solid 1px var(--color-white);
+}
+
+.footer-links ul li:last-child {
+    padding-bottom: 20px;
 }
 
 .footer-navlink {
@@ -172,4 +181,30 @@ body {
 
 .gmap_iframe {
     height: 225px !important;
+}
+
+
+.bottom-footer {
+    background-color: var(--color-yellow-);
+}
+
+.footer-image {
+    display: flex;
+    justify-content: center;
+}
+
+.payment-header {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: .0625rem;
+    font-family: cabin;
+    font-size: 1.125rem;
+}
+
+
+.payment-images {
+
+    width: calc(200px + 10%);
 }
