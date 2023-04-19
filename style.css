@@ -3,13 +3,14 @@
 /* ====================================Fonts ===================================== */
 
 :root {
-    --color-yellow-: #FFE100;
-    --color-blue-: #009FDF;
-    --color-dark-blue-: #0A264B;
-    --color-white: #f5f5f5;
-    --color-grey: #EEEEEE;
+    --color-primary: #FFE100;
+    --color-secondary: #0A264B;
+    --color-other: #009FDF;
+    --color-edges: #B0B0B0;
     --color-black: black;
     --color-background: #f5f5f5;
+    --color-headings: #0A264B;
+    --color-text: #0A264B;;
 }
 
 /*===============================================ROOT VARIABLEN =================================================*/
@@ -35,6 +36,7 @@ body {
 main {
     height: 1000px;
 }
+
 /* ==================== Top navbar ============================= */
 
 .navbar {
@@ -164,8 +166,6 @@ main {
     color: var(--color-white);
 }
 
-
-
 .mapouter {
     position: relative;
     text-align: right;
@@ -207,4 +207,49 @@ main {
 .payment-images {
 
     width: calc(200px + 10%);
+}
+
+/*================================== Einde footer ============================== */
+.categorie-tekst {
+    font-family: Cabin, Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+}
+
+.categorie {
+    margin: 40px 0px 0px 10px;
+}
+
+.categorie-blok {
+    background: var(--color-background);
+    border: 0.3px solid var(--color-grey);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    width: 110px;
+    height: 130px;
+}
+
+.categorie-items {
+    margin: 20px 0px 0px 0px;
+}
+
+.categorie-image {
+    width: 95px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.categorie-naam {
+    font-size: 12px;
+    align-self: center;
+}
+
+.categorie-image-blok {
+    width: 110px;
+}
+
+.categorie-naam-blok {
+    display: flex;
+    justify-content: center;
+    height: 30px;
 }
