@@ -245,6 +245,7 @@ main {
     border-radius: 8px;
     border: none;
     background-color: var(--color-dark-blue-);
+    cursor: pointer;
 }
 
 .contact-text{
