@@ -3,13 +3,15 @@
 /* ====================================Fonts ===================================== */
 
 :root {
-    --color-yellow-: #FFE100;
-    --color-blue-: #009FDF;
-    --color-dark-blue-: #0A264B;
-    --color-white: #f5f5f5;
-    --color-grey: #EEEEEE;
+    --color-primary: #FFE100;
+    --color-secondary: #0A264B;
+    --color-other: #009FDF;
+    --color-edges: #B0B0B0;
     --color-black: black;
     --color-background: #f5f5f5;
+    --color-headings: #0A264B;
+    --color-text: #0A264B;
+    --color-background-producten: #d2e2f9;
 }
 
 /*===============================================ROOT VARIABLEN =================================================*/
@@ -24,17 +26,19 @@ html {
     padding: 0;
     margin: 0;
     font-family: Roboto, Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
 
 
 body {
-    background-color: #f5f5f5;
+    background-color: var(--color-background);
 }
 
 /* ===================================Einde HTML indeling ====================================== */
 main {
     height: 1000px;
 }
+
 /* ==================== Top navbar ============================= */
 
 .navbar {
@@ -44,7 +48,7 @@ main {
 }
 
 .navigatie-menu {
-    background-color: var(--color-yellow-);
+    background-color: var(--color-primary);
     height: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -95,7 +99,7 @@ main {
 
 .searchbar {
     width: 100%;
-    background-color: var(--color-dark-blue-);
+    background-color: var(--color-secondary);
     height: 2.8125rem;
     display: flex;
     align-items: center;
@@ -112,7 +116,7 @@ main {
 }
 
 .searchbar-input:focus {
-    border: solid 2px var(--color-blue-);
+    border: solid 2px var(--color-other);
     outline: none;
 }
 
@@ -126,7 +130,7 @@ main {
 .footer {
     padding: 1.5625rem 0;
     height: 29rem;
-    background-color: var(--color-dark-blue-);
+    background-color: var(--color-secondary);
 }
 
 .footer-content {
@@ -134,7 +138,7 @@ main {
 }
 
 .footer-header {
-    color: var(--color-white);
+    color: var(--color-background);
     font-size: 1.125rem;
     padding-bottom: 10px;
     font-size: 1.25rem;
@@ -152,7 +156,7 @@ main {
     font-size: 1.1rem;
     padding: .525rem 0;
     text-transform: capitalize;
-    border-top: solid 1px var(--color-white);
+    border-top: solid 1px var(--color-background);
 }
 
 .footer-links ul li:last-child {
@@ -161,10 +165,8 @@ main {
 
 .footer-navlink {
     text-decoration: none;
-    color: var(--color-white);
+    color: var(--color-background);
 }
-
-
 
 .mapouter {
     position: relative;
@@ -185,7 +187,7 @@ main {
 
 
 .bottom-footer {
-    background-color: var(--color-yellow-);
+    background-color: var(--color-primary);
 }
 
 .footer-image {
@@ -203,8 +205,63 @@ main {
     font-size: 1.125rem;
 }
 
-
 .payment-images {
 
     width: calc(200px + 10%);
+}
+
+/*================================== Einde footer ============================== */
+.categorie-tekst {
+    font-family: Cabin, Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.categorie {
+    margin: 40px 10px 0px 10px;
+    color: var(--color-headings);
+}
+
+.categorie-blok {
+    background: var(--color-background);
+    border: 0.3px solid var(--color-edges);
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
+    width: 110px;
+    height: 130px;
+    margin: 0px 10px 0px 0px;
+    border-radius: 8px;
+}
+
+.categorie-items {
+    margin: 20px 0px 0px 0px;
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.categorie-image {
+    width: auto;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.categorie-naam {
+    font-size: .8rem;
+    align-self: center;
+    color: var(--color-text);
+}
+
+.categorie-image-blok {
+    width: 110px;
+    background-color: var(--color-background-producten);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.categorie-naam-blok {
+    display: flex;
+    justify-content: center;
+    height: 30px;
 }
