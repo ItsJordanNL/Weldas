@@ -3,13 +3,14 @@
 /* ====================================Fonts ===================================== */
 
 :root {
-    --color-yellow-: #FFE100;
-    --color-blue-: #009FDF;
-    --color-dark-blue-: #0A264B;
-    --color-white: #f5f5f5;
-    --color-grey: #EEEEEE;
+    --color-primary: #FFE100;
+    --color-secondary: #0A264B;
+    --color-other: #009FDF;
+    --color-edges: #B0B0B0;
     --color-black: black;
     --color-background: #f5f5f5;
+    --color-headings: #0A264B;
+    --color-text: #0A264B;;
 }
 
 /*===============================================ROOT VARIABLEN =================================================*/
@@ -47,7 +48,7 @@ main {
 }
 
 .navigatie-menu {
-    background-color: var(--color-yellow-);
+    background-color: var(--color-primary);
     height: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -98,7 +99,7 @@ main {
 
 .searchbar {
     width: 100%;
-    background-color: var(--color-dark-blue-);
+    background-color: var(--color-secondary);
     height: 2.8125rem;
     display: flex;
     align-items: center;
@@ -115,7 +116,7 @@ main {
 }
 
 .searchbar-input:focus {
-    border: solid 2px var(--color-blue-);
+    border: solid 2px var(--color-other);
     outline: none;
 }
 
@@ -129,7 +130,7 @@ main {
 .footer {
     padding: 1.5625rem 0;
     height: 29rem;
-    background-color: var(--color-dark-blue-);
+    background-color: var(--color-secondary);
 }
 
 .footer-content {
@@ -137,7 +138,7 @@ main {
 }
 
 .footer-header {
-    color: var(--color-white);
+    color: var(--color-background);
     font-size: 1.125rem;
     padding-bottom: 10px;
     font-size: 1.25rem;
@@ -155,7 +156,7 @@ main {
     font-size: 1.1rem;
     padding: .525rem 0;
     text-transform: capitalize;
-    border-top: solid 1px var(--color-white);
+    border-top: solid 1px var(--color-background);
 }
 
 .footer-links ul li:last-child {
@@ -164,7 +165,7 @@ main {
 
 .footer-navlink {
     text-decoration: none;
-    color: var(--color-white);
+    color: var(--color-background);
 }
 
 
@@ -188,7 +189,7 @@ main {
 
 
 .bottom-footer {
-    background-color: var(--color-yellow-);
+    background-color: var(--color-primary);
 }
 
 .footer-image {
@@ -244,13 +245,13 @@ main {
     width: 135px;
     border-radius: 8px;
     border: none;
-    background-color: var(--color-dark-blue-);
+    background-color: var(--color-secondary);
     cursor: pointer;
 }
 
 .contact-text{
     text-transform: capitalize;
-    color: var(--color-white)
+    color: var(--color-background)
 }
 
 h2.contact-text{
