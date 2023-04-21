@@ -12,6 +12,7 @@
     --color-headings: #0A264B;
     --color-text: #0A264B;
     --color-background-producten: #d2e2f9;
+    --color-background-certificaten: #d2e2f9;
 }
 
 /*===============================================ROOT VARIABLEN =================================================*/
@@ -211,57 +212,42 @@ main {
 }
 
 /*================================== Einde footer ============================== */
-.categorie-tekst {
+.certificaten-tekst {
     font-family: Cabin, Arial, Helvetica, sans-serif;
     font-size: 1.25rem;
     font-weight: bold;
 }
 
-.categorie {
+.certificaten {
     margin: 40px 10px 0px 10px;
     color: var(--color-headings);
 }
 
-.categorie-blok {
+.certificaten-blok {
     background: var(--color-background);
     border: 0.3px solid var(--color-edges);
     /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
-    width: 110px;
-    height: 130px;
     margin: 0px 10px 0px 0px;
     border-radius: 8px;
 }
 
-.categorie-items {
+.certificaten-items {
     margin: 20px 0px 0px 0px;
     display: flex;
     overflow: auto;
     white-space: nowrap;
 }
 
-.categorie-image {
+.certificaten-image {
     width: auto;
-    height: 100px;
+    height: 65px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 25px;
 }
 
-.categorie-naam {
-    font-size: .8rem;
-    align-self: center;
-    color: var(--color-text);
-}
-
-.categorie-image-blok {
-    width: 110px;
-    background-color: var(--color-background-producten);
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-}
-
-.categorie-naam-blok {
-    display: flex;
-    justify-content: center;
-    height: 30px;
+.certificaten-image-blok {
+    background-color: var(--color-background-certificaten);
+    border-radius: 8px;
 }
