@@ -129,7 +129,6 @@ main {
 
 .footer {
     padding: 1.5625rem 0;
-    height: 29rem;
     background-color: var(--color-secondary);
 }
 
@@ -248,9 +247,13 @@ main {
 }
 
 .categorie-naam {
-    font-size: .8rem;
+    font-size: .9rem;
     align-self: center;
     color: var(--color-text);
+    font-family: 'Cabin';
+    max-width: 100%;
+    overflow: hidden;
+    padding: 5px;
 }
 
 .categorie-image-blok {
