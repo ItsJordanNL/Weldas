@@ -33,10 +33,93 @@ body {
 }
 
 /* ===================================Einde HTML indeling ====================================== */
-
 main {
-    height: 500px;
+    height:300vh;
 }
+
+.product-container{
+    padding: 1.25rem;
+    height: 15.625rem;
+}
+
+.product-item-box{
+    padding: 20px 0px;
+}
+
+.product-border{
+    padding: 20px 10px;
+    border: solid .5px var(--color-edges);
+    border-radius: 5px;
+}
+
+.product-image{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+img.product-item{
+    height:140px;
+    width: auto;
+}
+
+.product-item-context{
+    padding-left: .625rem;
+}
+
+.product-item-title{
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.product-item-desc{
+    padding-bottom: 10px;
+    color: var(--color-text);
+}
+
+.product-item-certification{
+    color: var(--color-text);
+    opacity: .45;
+}
+
+.product-price{
+    padding: 20px 0px;
+    font-size: 1.4rem;
+}
+
+.bestel-button{
+    padding: 0px 10px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.winkelwagen-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    color: var(--color-background);
+    background-color: var(--color-other);
+    border: none;
+    border-radius: .3125rem;
+    cursor:pointer;
+    font-size: 1rem;
+}
+
+.favoriet-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 15%;
+    border-radius: .3125rem;
+    border: none;
+    background-color: var(--color-other);
+    color: var(--color-background);
+    cursor:pointer;
+}
+
 
 /* ==================== Top navbar ============================= */
 
@@ -128,6 +211,7 @@ main {
 /*================================== Einde header ============================== */
 
 .footer {
+    z-index: 5;
     padding: 1.5625rem 0;
     height: 29rem;
     background-color: var(--color-secondary);
@@ -145,7 +229,6 @@ main {
     text-transform: uppercase;
     font-family: Cabin, Arial, Helvetica, sans-serif;
     font-weight: bold !important;
-    ;
 }
 
 .footer-links ul {
@@ -215,57 +298,3 @@ main {
 
 /* ============================ Einde footer ===================================== */
 
-.hero-banner {
-    height: 13rem;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    display: block;
-    position: relative;
-    background-color: #1c1d25;
-}
-
-.context-contact {
-    color: #0A264B80;
-    text-align: center;
-    padding: 2.5rem 3.125rem;
-}
-
-.contact{
-    display: flex;
-    justify-content: center;
-}
-
-.contact-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    width: 135px;
-    border-radius: 8px;
-    border: none;
-    background-color: var(--color-secondary);
-    cursor: pointer;
-}
-
-.contact-text{
-    text-transform: capitalize;
-    color: var(--color-background)
-}
-
-h2.contact-text{
-    padding-left: 5px;
-}
-
-@media (min-width:961px) {
-    .hero-banner {
-        height: 25rem;
-        background-position: top;
-        background-size: contain;
-        width: 100%;
-        background-color: transparent;
-    }
-}
-
-/* test commit */
