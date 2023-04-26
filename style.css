@@ -168,8 +168,6 @@ main {
     color: var(--color-background);
 }
 
-
-
 .mapouter {
     position: relative;
     text-align: right;
@@ -269,3 +267,47 @@ h2.contact-text{
 }
 
 /* test commit */
+/*================================== Einde footer ============================== */
+.categorie-tekst {
+    font-family: Cabin, Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+}
+
+.categorie {
+    margin: 40px 0px 0px 10px;
+}
+
+.categorie-blok {
+    background: var(--color-background);
+    border: 0.3px solid var(--color-grey);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    width: 110px;
+    height: 130px;
+}
+
+.categorie-items {
+    margin: 20px 0px 0px 0px;
+}
+
+.categorie-image {
+    width: 95px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.categorie-naam {
+    font-size: 12px;
+    align-self: center;
+}
+
+.categorie-image-blok {
+    width: 110px;
+}
+
+.categorie-naam-blok {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+}
