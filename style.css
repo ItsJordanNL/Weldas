@@ -379,6 +379,7 @@ h2.contact-text {
 .product-h3-header {
     padding-left: 20px;
     font-family: cabin;
+    color: var(--color-headings);
 }
 
 .product-container {
