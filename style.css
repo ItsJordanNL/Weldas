@@ -33,8 +33,9 @@ body {
 }
 
 /* ===================================Einde HTML indeling ====================================== */
+
 main {
-    height: 1000px;
+    height: 500px;
 }
 
 /* ==================== Top navbar ============================= */
@@ -43,10 +44,11 @@ main {
     position: sticky;
     top: 0;
     width: 100%;
+    z-index: 2;
 }
 
 .navigatie-menu {
-    background-color: var(--color-yellow-);
+    background-color: var(--color-primary);
     height: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -97,7 +99,7 @@ main {
 
 .searchbar {
     width: 100%;
-    background-color: var(--color-dark-blue-);
+    background-color: var(--color-secondary);
     height: 2.8125rem;
     display: flex;
     align-items: center;
@@ -114,7 +116,7 @@ main {
 }
 
 .searchbar-input:focus {
-    border: solid 2px var(--color-blue-);
+    border: solid 2px var(--color-other);
     outline: none;
 }
 
@@ -128,7 +130,7 @@ main {
 .footer {
     padding: 1.5625rem 0;
     height: 29rem;
-    background-color: var(--color-dark-blue-);
+    background-color: var(--color-secondary);
 }
 
 .footer-content {
@@ -136,7 +138,7 @@ main {
 }
 
 .footer-header {
-    color: var(--color-white);
+    color: var(--color-background);
     font-size: 1.125rem;
     padding-bottom: 10px;
     font-size: 1.25rem;
@@ -154,7 +156,7 @@ main {
     font-size: 1.1rem;
     padding: .525rem 0;
     text-transform: capitalize;
-    border-top: solid 1px var(--color-white);
+    border-top: solid 1px var(--color-background);
 }
 
 .footer-links ul li:last-child {
@@ -163,7 +165,7 @@ main {
 
 .footer-navlink {
     text-decoration: none;
-    color: var(--color-white);
+    color: var(--color-background);
 }
 
 .mapouter {
@@ -185,7 +187,7 @@ main {
 
 
 .bottom-footer {
-    background-color: var(--color-yellow-);
+    background-color: var(--color-primary);
 }
 
 .footer-image {
@@ -209,6 +211,62 @@ main {
     width: calc(200px + 10%);
 }
 
+/* ============================ Einde footer ===================================== */
+
+.hero-banner {
+    height: 13rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: block;
+    position: relative;
+    background-color: #1c1d25;
+}
+
+.context-contact {
+    color: #0A264B80;
+    text-align: center;
+    padding: 2.5rem 3.125rem;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 135px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--color-secondary);
+    cursor: pointer;
+}
+
+.contact-text{
+    text-transform: capitalize;
+    color: var(--color-background)
+}
+
+h2.contact-text{
+    padding-left: 5px;
+}
+
+@media (min-width:961px) {
+    .hero-banner {
+        height: 25rem;
+        background-position: top;
+        background-size: contain;
+        width: 100%;
+        background-color: transparent;
+    }
+}
+
+/* test commit */
 /*================================== Einde footer ============================== */
 .categorie-tekst {
     font-family: Cabin, Arial, Helvetica, sans-serif;
