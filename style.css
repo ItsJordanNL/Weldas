@@ -12,6 +12,7 @@
     --color-headings: #0A264B;
     --color-text: #0A264B;
     --color-background-producten: #0080ff0d;
+    --color-background-certificaten: #f5f5f5;
     --color-headings: #0A264B;
     --color-text: #0A264B;;
 }
@@ -214,40 +215,39 @@ main {
 }
 
 /*================================== Einde footer ============================== */
-.categorie-tekst {
+.certificaten-tekst {
     font-family: Cabin, Arial, Helvetica, sans-serif;
     font-size: 1.25rem;
     font-weight: bold;
 }
 
-.categorie {
+.certificaten {
     margin: 40px 10px 0px 10px;
     color: var(--color-headings);
 }
 
-.categorie-blok {
+.certificaten-blok {
     background: var(--color-background);
-    border: 0.3px solid var(--color-edges);
+    border: 1px solid var(--color-edges);
     /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
-    width: 110px;
-    height: 130px;
     margin: 0px 10px 0px 0px;
     border-radius: 8px;
 }
 
-.categorie-items {
+.certificaten-items {
     margin: 20px 0px 0px 0px;
     display: flex;
     overflow: auto;
     white-space: nowrap;
 }
 
-.categorie-image {
+.certificaten-image {
     width: auto;
-    height: 100px;
+    height: 65px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 25px;
 }
 
 .categorie-naam {
@@ -372,4 +372,9 @@ h2.contact-text{
     display: flex;
     justify-content: center;
     height: 30px;
+}
+
+.certificaten-image-blok {
+    background-color: var(--color-background-certificaten);
+    border-radius: 8px;
 }
