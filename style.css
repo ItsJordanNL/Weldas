@@ -40,7 +40,7 @@ body {
 /* ===================================Einde HTML indeling ====================================== */
 
 main {
-    height: 500px;
+    height: 900px;
 }
 
 /* ==================== Top navbar ============================= */
@@ -215,6 +215,7 @@ main {
 }
 
 /*================================== Einde footer ============================== */
+
 .certificaten-tekst {
     font-family: Cabin, Arial, Helvetica, sans-serif;
     font-size: 1.25rem;
@@ -250,30 +251,14 @@ main {
     padding: 25px;
 }
 
-.categorie-naam {
-    font-size: .9rem;
-    align-self: center;
-    color: var(--color-text);
-    font-family: 'Cabin';
-    max-width: 100%;
-    overflow: hidden;
-    padding: 5px;
+.certificaten-image-blok {
+    background-color: var(--color-background-certificaten);
+    border-radius: 8px;
 }
 
-.categorie-image-blok {
-    width: 110px;
-    background-color: var(--color-background-producten);
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-}
 
-.categorie-naam-blok {
-    display: flex;
-    justify-content: center;
-    height: 30px;
-}
 
-/* ============================ Einde footer ===================================== */
+/* ============================ Einde certificaten ===================================== */
 
 .hero-banner {
     height: 13rem;
@@ -328,31 +313,37 @@ h2.contact-text{
     }
 }
 
-/* test commit */
-/*================================== Einde footer ============================== */
+/*================================== Einde hero-banner ============================== */
 .categorie-tekst {
     font-family: Cabin, Arial, Helvetica, sans-serif;
     font-size: 1.25rem;
+    font-weight: bold;
 }
 
 .categorie {
-    margin: 40px 0px 0px 10px;
+    margin: 40px 10px 0px 10px;
+    color: var(--color-headings);
 }
 
 .categorie-blok {
     background: var(--color-background);
-    border: 0.3px solid var(--color-grey);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: 0.3px solid var(--color-edges);
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
     width: 110px;
     height: 130px;
+    margin: 0px 10px 0px 0px;
+    border-radius: 8px;
 }
 
 .categorie-items {
     margin: 20px 0px 0px 0px;
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
 }
 
 .categorie-image {
-    width: 95px;
+    width: auto;
     height: 100px;
     display: block;
     margin-left: auto;
@@ -360,12 +351,20 @@ h2.contact-text{
 }
 
 .categorie-naam {
-    font-size: 12px;
+    font-size: .9rem;
     align-self: center;
+    color: var(--color-text);
+    font-family: 'Cabin';
+    max-width: 100%;
+    overflow: hidden;
+    padding: 5px;
 }
 
 .categorie-image-blok {
     width: 110px;
+    background-color: var(--color-background-producten);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 .categorie-naam-blok {
@@ -374,7 +373,6 @@ h2.contact-text{
     height: 30px;
 }
 
-.certificaten-image-blok {
-    background-color: var(--color-background-certificaten);
-    border-radius: 8px;
-}
+/* ============================ einde categorie ===================================== */
+
+
