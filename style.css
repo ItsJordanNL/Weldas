@@ -33,6 +33,17 @@ body {
 }
 
 /* ===================================Einde HTML indeling ====================================== */
+
+/* =============== banner productpagina ================== */
+
+header {
+    height:120px;
+    background-position: center;
+    background-size: cover;
+}
+
+/*============================product boxes ================================*/
+
 main {
     height:300vh;
 }
