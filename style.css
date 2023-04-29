@@ -36,21 +36,43 @@ body {
 
 /* =============== banner productpagina ================== */
 
-header {
-    height:120px;
+.hero-product-page {
+    height:140px;
     background-position: center;
     background-size: cover;
 }
 
-/*============================product boxes ================================*/
-
-main {
-    height:300vh;
+.hero-header-productpage{
+    color: var(--color-background);
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    position: relative;
+    top:110px;
+    font-size: 1.75rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
 }
+
+.back-to-home-button{
+    padding:20px;
+    display:flex;
+    align-items: center;
+}
+
+.back-arrow.material-icons-round{
+    font-size: 15px;
+}
+
+.back-link{
+    font-size: 15px;
+    color: var(--color-headings);
+}
+
+/*============================product boxes ================================*/
 
 .product-container{
     padding: 1.25rem;
-    height: 15.625rem;
 }
 
 .product-item-box{
