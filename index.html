@@ -8,6 +8,7 @@
     <title>Weldas</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <script defer src="script.js"></script>
 </head>
 
 <body>
@@ -15,7 +16,36 @@
     <nav id="top" class="navbar">
         <div class="navigatie-menu">
             <div class="menu-btn">
-                <button class="menu-icon material-icons-round">menu</button>
+                <div id="mySidepanel" class="sidepanel">
+                    <div class="close-position">
+                        <a href="javascript:void(0)" class="close-button" onclick="closeNav()">×</a>
+                    </div>
+                    <button type="button" class="kopje">Handschoenen</button>
+                    <div class="content">
+                        <a href="#" class="tussenkopje">Contact</a>
+                    </div>
+                    <button type="button" class="kopje">Kleding</button>
+                    <div class="content">
+                        <a href="#" class="tussenkopje">Contact</a>
+                    </div>
+                    <button type="button" class="kopje">Hoofdbescherming</button>
+                    <div class="content">
+                        <a href="#" class="tussenkopje">Contact</a>
+                    </div>
+                    <button type="button" class="kopje">Accessoires</button>
+                    <div class="content">
+                        <a href="#" class="tussenkopje">Contact</a>
+                    </div>
+                    <button type="button" class="kopje">Lava Shield</button>
+                    <div class="content">
+                        <a href="#" class="tussenkopje">Contact</a>
+                    </div>
+                    <button type="button" class="kopje">Informatie</button>
+                    <div class="content">
+                        <a href="#" class="tussenkopje">Contact</a>
+                    </div>
+                </div>
+                <button class="menu-icon material-icons-round" onclick="openNav()">menu</button>
             </div>
             <div class="logo">
                 <a href="#" class="logo-link">
@@ -37,21 +67,6 @@
 
     <!--------------------- Einde Navbar --------------------------->
     <main>
-
-        <div class="wie-zijn-wij">
-            <div class="wie-zijn-wij-header">
-                Wij zijn wij?
-            </div>
-            <div class="wie-zijn-wij-tekst">
-                Weldas® voortdurende productontwikkeling en kwaliteitscontrole, ondersteund door proeven door lassers,
-                heeft een wereldwijde reputatie verdiend van de hoogste kwaliteit en meest innovatieve producten op het
-                gebied van lashandschoenen en laskleding.<br><br>
-
-                Onze fabriek is ISO 9001 gecertificeerd sinds Augustus 1999. Weldas® biedt een klantgericht ontworpen
-                productlijn aan voor speciale toepassingen en vragen uit de markt. Alle standaard verpakkingen zijn v.v.
-                productinformatie en een barcode als ook een ophanghaak. Weldas producten zijn gemarkeerd met de juiste
-                EN standaarden.
-            </div>
 
     </main>
     <!--------------einde main ------------------>
