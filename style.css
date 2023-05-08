@@ -382,8 +382,18 @@ h2.contact-text {
 }
 
 /* ============================ einde categorie ===================================== */
-.products-h3-header {
+
+.product-header{
     padding-left: 20px;
+}
+
+.product-h3-header{
+    font-family: cabin;
+    font-size: 1.2rem;
+    color: var(--color-headings);
+}
+
+.products-h3-header {
     font-family: cabin;
     color: var(--color-headings);
     text-transform: uppercase;
@@ -555,3 +565,24 @@ img.product-item{
 }
 
 /* =========================== Einde filter ====================================== */
+
+
+.chatbubbel {
+    position: fixed;
+    right: 8px;
+    bottom: 10px;
+    background-color: var(--color-other);
+    padding: 15px;
+    border-radius: 30px 8px 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.chat-icon {
+    height: 28px;
+    width: auto;
+}
+
+/* ======================== Einde chatbubble ========================================= */
