@@ -509,3 +509,43 @@ img.product-item {
 
 /* =============================einde hero banner productpage ==================================== */
 
+
+.filter-items {
+    margin: 40px 20px 40px 20px;
+    overflow: auto;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.filter-knop {
+    padding: 10px 12px;
+    border: 1px solid var(--color-black);
+    border-radius: 6px;
+    font-family: Cabin, Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin-right: 15px;
+    cursor:pointer;
+}
+
+.filter-icon {
+    height: 16px;
+    width: auto;
+    padding-right: 6px;
+}
+
+.filter-categorie {
+    margin-right: 10px;
+    border: 0.5px solid var(--color-black);
+    border-radius: 1000px;
+    width: fit-content;
+    height: fit-content;
+    padding: 6px 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+/* =========================== Einde filter ====================================== */
