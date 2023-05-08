@@ -136,7 +136,10 @@ main {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 50px;
+    width: 0px;
 }
+
+
 
 .kopje {
     padding: 25px 8px 8px 32px;
@@ -150,6 +153,7 @@ main {
     cursor: pointer;
     background-color: var(--color-secondary) !important;
     transition: 0.3s;
+    font-family: Cabin, Arial, Helvetica, sans-serif;
 }
 
 .tussenkopje {
@@ -163,6 +167,7 @@ main {
     border: none;
     cursor: pointer;
     background-color: var(--color-secondary) !important;
+    font-family: Cabin, Arial, Helvetica, sans-serif;
 }
 
 .sidepanel a:hover {
@@ -249,6 +254,7 @@ main {
     position: relative;
     text-align: right;
     height: 225px;
+    z-index: 10;
 }
 
 .gmap_canvas {
@@ -261,7 +267,6 @@ main {
 .gmap_iframe {
     height: 225px !important;
 }
-
 
 .bottom-footer {
     background-color: var(--color-primary);
