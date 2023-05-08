@@ -470,3 +470,42 @@ img.product-item {
     color: var(--color-background);
     cursor: pointer;
 }
+
+/* ========================== Einde homepage ======================================= */
+
+.hero-product-page {
+    height:140px;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-header-productpage{
+    color: var(--color-background);
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    position: relative;
+    top:110px;
+    font-size: 1.75rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.back-to-home-button{
+    padding-top: 20px;
+    padding-left:20px;
+    display:flex;
+}
+
+.back-arrow.material-icons-round{
+    font-size: 13px;
+    padding-right: 4px;
+}
+
+.back-link{
+    font-size: 13px;
+    color: var(--color-headings);
+}
+
+/* =============================einde hero banner productpage ==================================== */
+
