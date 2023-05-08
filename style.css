@@ -139,8 +139,6 @@ main {
     width: 0px;
 }
 
-
-
 .kopje {
     padding: 25px 8px 8px 32px;
     text-decoration: none;
@@ -207,6 +205,16 @@ main {
     transition: max-height 0.2s ease-out;
 }
 
+.box {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(2px);
+    display: none;
+}
 
 /*================================== Einde header ============================== */
 

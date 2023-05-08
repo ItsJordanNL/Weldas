@@ -1,5 +1,6 @@
 function openNav() {
   document.getElementById("mySidepanel").style.width = "calc(200px + 10%)";
+  document.getElementById("backgroundBox").style.display = "block";
 }
 var coll = document.getElementsByClassName("collapsible");
 var i;
@@ -17,6 +18,7 @@ for (i = 0; i < coll.length; i++) {
 }
 function closeNav() {
   document.getElementById("mySidepanel").style.width = "0";
+  document.getElementById("backgroundBox").style.display = "none";
 }
 
 var coll = document.getElementsByClassName("kopje");
