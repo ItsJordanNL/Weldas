@@ -614,6 +614,12 @@ img.product-item{
 .back-link{
     font-size: 13px;
     color: var(--color-headings);
+    display: flex;
+    align-items: center;
+}
+
+.back-text {
+    text-decoration-line: underline;
 }
 
 /* =============================einde hero banner productpage ==================================== */
