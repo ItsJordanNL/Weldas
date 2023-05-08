@@ -131,6 +131,99 @@ body {
     right: 15px;
 }
 
+/*----------------------Einde zoekbalk ------------------------*/
+
+.sidepanel {
+    position: fixed;
+    z-index: 10000;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: var(--color-secondary);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 50px;
+    width: 0px;
+}
+
+.kopje {
+    padding: 25px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--color-background);
+    display: block;
+    transition: 0.3s;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: var(--color-secondary) !important;
+    transition: 0.3s;
+    font-family: Cabin, Arial, Helvetica, sans-serif;
+}
+
+.tussenkopje {
+    padding: 6px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--color-background);
+    display: block;
+    transition: 0.3s;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: var(--color-secondary) !important;
+    font-family: Cabin, Arial, Helvetica, sans-serif;
+}
+
+.sidepanel a:hover {
+    color: #f1f1f1;
+}
+
+.close-button {
+    font-size: 36px !important;
+    color: var(--color-background);
+}
+
+.open-button {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.close-position {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.content {
+    padding: 0 18px;
+    color: var(--color-background);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.box {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(2px);
+    display: none;
+}
+/*================================== Einde side panel=================================*/
+
 /*================================== Einde header ============================== */
 
 footer {
