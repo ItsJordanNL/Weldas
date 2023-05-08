@@ -382,70 +382,75 @@ h2.contact-text {
 }
 
 /* ============================ einde categorie ===================================== */
-
-.product-h3-header {
+.products-h3-header {
     padding-left: 20px;
     font-family: cabin;
     color: var(--color-headings);
+    text-transform: uppercase;
 }
 
-.product-container {
+.product-container{
     padding: 1.25rem;
 }
 
-.product-item-box {
+.product-item-box{
     padding: 20px 0px;
 }
 
-.product-border {
-    padding: 20px 10px;
-    border: solid .5px var(--color-edges);
-    border-radius: var(--border-radius-boxes);
+.product-item-link{
+    text-decoration: none;
+    color: var(--color-headings);
 }
 
-.product-image {
-    display: flex;
+.product-border{
+    padding: 20px 10px;
+    border: solid .5px var(--color-edges);
+    border-radius: 5px;
+}
+
+.product-image{
+    display:flex;
     justify-content: center;
     margin-bottom: 30px;
 }
 
-img.product-item {
-    height: 140px;
+img.product-item{
+    height:140px;
     width: auto;
 }
 
-.product-item-context {
+.product-item-context{
     padding-left: .625rem;
 }
 
-.product-item-title {
+.product-item-title{
     font-weight: bold;
     padding-bottom: 10px;
     font-size: 1.5rem;
 }
 
-.product-item-desc {
+.product-item-desc{
     padding-bottom: 10px;
     color: var(--color-text);
 }
 
-.product-item-certification {
+.product-item-certification{
     color: var(--color-text);
-    opacity: var(--opacity);
+    opacity: .45;
 }
 
-.product-price {
+.product-price{
     padding: 20px 0px;
     font-size: 1.4rem;
 }
 
-.bestel-button {
+.bestel-button{
     padding: 0px 10px;
-    display: flex;
+    display:flex;
     justify-content: space-between;
 }
 
-.winkelwagen-button {
+.winkelwagen-button{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -454,22 +459,23 @@ img.product-item {
     background-color: var(--color-other);
     border: none;
     border-radius: .3125rem;
-    cursor: pointer;
+    cursor:pointer;
     font-size: 1rem;
 }
 
-.favoriet-button {
+.favoriet-button{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 40px;
     width: 15%;
-    border-radius: var(--border-radius-boxes);
+    border-radius: .3125rem;
     border: none;
     background-color: var(--color-other);
     color: var(--color-background);
-    cursor: pointer;
+    cursor:pointer;
 }
+
 
 /* ========================== Einde homepage ======================================= */
 
