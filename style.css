@@ -295,6 +295,7 @@ footer {
 
 /* ============================ Einde certificaten ===================================== */
 
+
 .hero-banner {
     height: 13rem;
     background-position: center;
@@ -321,8 +322,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40px;
-    width: 135px;
+    height: 2.8rem;
+    width: 10rem;
     border-radius: 8px;
     border: none;
     background-color: var(--color-secondary);
@@ -330,6 +331,7 @@ footer {
 }
 
 .contact-text {
+    font-size: 1.4rem;
     text-transform: capitalize;
     color: var(--color-background)
 }
@@ -340,11 +342,17 @@ h2.contact-text {
 
 @media (min-width:961px) {
     .hero-banner {
-        height: 25rem;
+        height:70vh;
         background-position: top;
-        background-size: contain;
+        background-size: cover;
         width: 100%;
         background-color: transparent;
+    }
+
+    .contact-button{
+        position: relative;
+        top:-200px;
+        background-color: var(--color-other);
     }
 }
 
@@ -407,6 +415,10 @@ h2.contact-text {
     justify-content: center;
     height: 30px;
 }
+
+
+
+
 
 /* ============================ einde categorie ===================================== */
 
