@@ -291,6 +291,12 @@ body {
     right: 15px;
 }
 
+.account-text {
+    font-size: 0.9rem;
+    margin-right: 5px;
+    color: var(--color-black);
+}
+
 .search-icon-desktop.material-icons-round {
     position: relative;
     right: 28px;
