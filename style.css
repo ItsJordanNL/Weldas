@@ -44,33 +44,6 @@ body {
 
 
 
-.top-info-bar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 25px;
-    background-color: rgb(238, 238, 238);
-}
-
-.top-info-link {
-    color: var(--color-text);
-    text-decoration: none;
-    border-right: solid black 2px;
-    padding-right: 10px;
-    padding-left: 10px;
-}
-
-.top-info-link:last-child {
-    border-right: 0;
-}
-
-@media (max-width: 960px) {
-    .top-info-bar {
-        display: none;
-    }
-}
-
-
 /* ==================== Top navbar ============================= */
 
 .navbar {
@@ -307,6 +280,8 @@ footer {
     background-color: #1c1d25;
 }
 
+
+
 .context-contact {
     color: #0A264B80;
     text-align: center;
@@ -342,17 +317,48 @@ h2.contact-text {
 
 @media (min-width:961px) {
     .hero-banner {
-        height:70vh;
+        height:80vh;
         background-position: top;
         background-size: cover;
         width: 100%;
         background-color: transparent;
     }
 
-    .contact-button{
+    .hero-banner::before{
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        display: block;
+        content: "";
+        background: #000;
+        opacity: .5;
+        transition: opacity .3s ease;
+    }
+
+    .hero-banner::after{
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 30%;
+        background-size: 100%;
+        background-image: linear-gradient(0deg,rgba(0,0,0,.7),transparent);
+    }
+
+    .contact {
         position: relative;
         top:-200px;
+    }
+
+    .contact-button{
         background-color: var(--color-other);
+    }
+
+    .context-contact{
+        display:none;
     }
 }
 
@@ -561,6 +567,8 @@ img.product-item {
     font-size: 13px;
     color: var(--color-headings);
 }
+
+
 
 /* =============================einde hero banner productpage ==================================== */
 
