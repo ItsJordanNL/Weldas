@@ -481,6 +481,7 @@ footer {
     letter-spacing: .0625rem;
     font-family: cabin;
     font-size: 1.125rem;
+    color: var(--color-text);
 }
 
 .payment-images {
