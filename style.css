@@ -984,7 +984,9 @@ img.product-item {
         display: flex;
         margin-left: 20px;
         margin-top: 50px;
-        justify-content: space-evenly;
+    }
+
+    .filter-menu{
     }
 
     .filter-items {
