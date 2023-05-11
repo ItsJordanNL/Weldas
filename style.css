@@ -966,6 +966,10 @@ img.product-item {
         display: none;
     }
 
+    .categorie-tekst-desktop{
+        display:none;
+    }
+
     .contact-desktop {
         display: none;
     }
