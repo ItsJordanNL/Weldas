@@ -627,10 +627,17 @@ h2.contact-text {
 
 /*================================== Einde hero-banner ============================== */
 
+@media (max-width: 960px) {
+    .categorie-tekst-desktop {
+        display: none;
+    }
+}
+
 .categorie-tekst {
     font-family: Cabin, Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
 }
+
 
 .categorie {
     margin: 40px 10px 20px 20px;
@@ -680,10 +687,13 @@ h2.contact-text {
 }
 
 .categorie-naam-blok {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     height: 30px;
 }
+
+
+
+
 
 /* ============================ einde categorie ===================================== */
 
@@ -896,3 +906,64 @@ img.product-item {
 }
 
 /* ======================== Einde chatbubble ========================================= */
+
+/*  =========================== Media query's ================================= */
+
+@media (min-width:961px) {
+    .categorie-tekst {
+        display: none;
+    }
+
+    .categorie-tekst-desktop {
+        font-family: Cabin, Arial, Helvetica, sans-serif;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .categorie-items {
+        margin: 20px 0px 0px 0px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+
+    }
+
+    .categorie-blok {
+        display: flex;
+        margin: 0px;
+        height: 300px;
+        width: auto;
+    }
+
+    .categorie-blok:hover{
+        border: solid 0.5px var(--color-secondary);
+    }
+
+    .categorie-naam-blok{
+        position: relative;
+        top:25px;
+    }
+
+
+
+    .categorie-image-blok {
+        height: 200px;
+    }
+
+    .categorie-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+    }
+
+    .categorie-naam{
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+
+
+
+
+
+}
