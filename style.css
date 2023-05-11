@@ -509,27 +509,26 @@ footer {
     background-color: #1c1d25;
 }
 
+.contact{
+    display:flex;
+    justify-content: center;
+}
+
 .context-contact {
     color: #0A264B80;
     text-align: center;
     padding: 2.5rem 3.125rem;
 }
 
-.contact {
-    display: flex;
-    justify-content: center;
-}
-
 .contact-button {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40px;
-    width: 135px;
     border-radius: 8px;
     border: none;
     background-color: var(--color-secondary);
     cursor: pointer;
+    padding: 12px 16px;
 }
 
 .contact-text {
@@ -575,13 +574,20 @@ h2.contact-text {
         background-image: linear-gradient(0deg, rgba(0, 0, 0, .5), transparent);
     }
 
-    .contact {
+    .contact-desktop {
         position: relative;
-        top: -200px;
+        display: flex;
+        justify-content: center;
+        top: 75%;
+    }
+
+    .contact {
+        display: none;
     }
 
     .contact-button {
         background-color: var(--color-other);
+        z-index: 1;
     }
 
     .context-contact {
@@ -600,6 +606,7 @@ h2.contact-text {
         padding-right: 1rem;
         font-size: 3rem;
     }
+
     .top-logo {
         height: 38px;
     }
@@ -607,6 +614,9 @@ h2.contact-text {
 
 @media (max-width: 960px) {
     .navigatie-menu-desktop {
+        display: none;
+    }
+    .contact-desktop {
         display: none;
     }
 }
