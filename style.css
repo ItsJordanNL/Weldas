@@ -103,26 +103,6 @@ body {
     margin-right: .375rem;
 }
 
-.top-info-bar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 3.25vh;
-    background-color: var(--color-light-gray);
-    border-bottom: solid .1px var(--color-secondary);
-}
-
-.top-info-link {
-    color: var(--color-text);
-    text-decoration: none;
-    border-right: solid var(--color-headings) 2px;
-    padding: 0 10px;
-}
-
-.top-info-link:last-child {
-    border-right: 0;
-}
-
 .top-contact {
     display: flex;
     justify-content: center;
@@ -154,13 +134,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 7.3vh;
+    height: 9vh;
 }
 
 .top-logo {
     height: 30px;
     width: auto;
-    margin: 0 12px;
+    margin: 0 1.375rem;
 }
 
 @media (max-width: 960px) {
@@ -176,6 +156,14 @@ body {
 
     .searchbar {
         display: none !important;
+    }
+
+    .menu-icon.material-icons-round {
+        padding-right: 1rem;
+        font-size: 3rem;
+    }
+    .top-logo {
+        height: 38px;
     }
 }
 
@@ -268,7 +256,7 @@ body {
 }
 
 .searchbar-input-desktop {
-    height: 2.143rem;
+    height: 2.8rem;
     border-radius: 10px;
     padding-left: .9375rem;
     width: 65%;
@@ -292,7 +280,6 @@ body {
 }
 
 .account-text {
-    font-size: 0.9rem;
     margin-right: 5px;
     color: var(--color-black);
 }
@@ -581,7 +568,7 @@ h2.contact-text {
 
 @media (min-width:961px) {
     .hero-banner {
-        height: 80vh;
+        height: 81.55vh;
         background-position: top;
         background-size: cover;
         width: 100%;
