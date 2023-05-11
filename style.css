@@ -863,6 +863,11 @@ img.product-item {
     .contact-button {
         background-color: var(--color-other);
         z-index: 1;
+        transition: all .3s ease;
+    }
+
+    .contact-button:hover{
+        background-color: var(--color-headings);
     }
 
     .context-contact {
