@@ -890,8 +890,75 @@ img.product-item {
 
     /* ========= einde media query navbar items ====== */
 
-    
+    .categorie-tekst {
+        display: none;
+    }
 
+    .categorie-tekst-desktop {
+        font-family: Cabin, Arial, Helvetica, sans-serif;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .categorie-items {
+        margin: 20px 0px 0px 0px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+
+    }
+
+    .categorie-blok {
+        display: flex;
+        margin: 0px;
+        height: 300px;
+        width: auto;
+    }
+
+    .categorie-blok:hover{
+        border: solid 0.5px var(--color-secondary);
+    }
+
+    .categorie-naam-blok{
+        position: relative;
+        top:25px;
+    }
+
+
+
+    .categorie-image-blok {
+        height: 200px;
+    }
+
+    .categorie-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+    }
+
+    .categorie-naam{
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+
+/*===================Catergorie desktop======================*/
+
+    .product-container {
+        display: flex;
+        gap: 20px;
+        flex-wrap: nowrap;
+        padding: 1.25rem;
+    }
+
+    .product-item-box{
+        width:300px;
+    }
+
+    .product-h3-header{
+        text-align: center;
+        font-size: 1.8rem;
+    }
 }
 
 @media (max-width: 960px) {
