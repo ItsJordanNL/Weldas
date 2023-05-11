@@ -509,8 +509,8 @@ footer {
     background-color: #1c1d25;
 }
 
-.contact{
-    display:flex;
+.contact {
+    display: flex;
     justify-content: center;
 }
 
@@ -616,6 +616,7 @@ h2.contact-text {
     .navigatie-menu-desktop {
         display: none;
     }
+
     .contact-desktop {
         display: none;
     }
