@@ -143,30 +143,6 @@ body {
     margin: 0 1.375rem;
 }
 
-@media (max-width: 960px) {
-    .navigatie-menu-desktop {
-        display: none;
-    }
-}
-
-@media (min-width:961px) {
-    .navigatie-menu-mobile {
-        display: none !important;
-    }
-
-    .searchbar {
-        display: none !important;
-    }
-
-    .menu-icon.material-icons-round {
-        padding-right: 1rem;
-        font-size: 3rem;
-    }
-    .top-logo {
-        height: 38px;
-    }
-}
-
 .navbar-menu {
     overflow: hidden;
     background-color: var(--color-secondary);
@@ -612,6 +588,27 @@ h2.contact-text {
         display: none;
     }
 
+    .navigatie-menu-mobile {
+        display: none !important;
+    }
+
+    .searchbar {
+        display: none !important;
+    }
+
+    .menu-icon.material-icons-round {
+        padding-right: 1rem;
+        font-size: 3rem;
+    }
+    .top-logo {
+        height: 38px;
+    }
+}
+
+@media (max-width: 960px) {
+    .navigatie-menu-desktop {
+        display: none;
+    }
 }
 
 /*================================== Einde hero-banner ============================== */
