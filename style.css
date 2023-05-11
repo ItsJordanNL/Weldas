@@ -893,3 +893,24 @@ img.product-item {
 }
 
 /* ======================== Einde chatbubble ========================================= */
+
+@media (min-width:961px) {
+
+    .product-container {
+        display: flex;
+        gap: 20px;
+        flex-wrap: nowrap;
+        padding: 1.25rem;
+    }
+
+    .product-item-box{
+        width:300px;
+    }
+
+    .product-h3-header{
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+}
+
