@@ -462,7 +462,7 @@ footer {
 }
 
 .certificaten {
-    margin: 10px 20px 30px 20px;
+    margin: 40px 20px 0px 20px;
     color: var(--color-headings);
 }
 
@@ -517,7 +517,7 @@ footer {
 .context-contact {
     color: #0A264B80;
     text-align: center;
-    padding: 2.5rem 3.125rem;
+    padding: 30px 30px 20px 30px;
 }
 
 .contact-button {
@@ -549,7 +549,7 @@ h2.contact-text {
 }
 
 .categorie {
-    margin: 40px 10px 20px 20px;
+    margin: 40px 20px 0px 20px;
     color: var(--color-headings);
 }
 
@@ -560,8 +560,11 @@ h2.contact-text {
     /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
     /* width: 110px;
     height: 130px; */
-    margin: 0px 10px 10px 0px;
+    margin: 0px 10px 0px 0px;
     border-radius: var(--border-radius-boxes);
+}
+.categorie-blok:last-child {
+    margin: 0px;
 }
 
 .categorie-items {
@@ -603,8 +606,8 @@ h2.contact-text {
 
 /* ============================ einde categorie ===================================== */
 
-.product-header {
-    padding-left: 20px;
+.populaire-producten {
+    margin: 40px 20px 0px 20px;
 }
 
 .product-h3-header {
@@ -619,12 +622,8 @@ h2.contact-text {
     text-transform: uppercase;
 }
 
-.product-container {
-    padding: 1.25rem;
-}
-
 .product-item-box {
-    padding: 20px 0px;
+    padding-top: 20px;
 }
 
 .product-item-link {
@@ -949,7 +948,7 @@ img.product-item {
 
     .product-container {
         display: flex;
-        gap: 20px;
+        gap: 35px;
         flex-wrap: nowrap;
         padding: 1.25rem;
     }
