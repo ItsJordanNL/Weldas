@@ -571,7 +571,8 @@ footer {
 
 .contact-text {
     text-transform: capitalize;
-    color: var(--color-background)
+    color: var(--color-background);
+    font-weight: normal;
 }
 
 h2.contact-text {
