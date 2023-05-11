@@ -910,6 +910,9 @@ img.product-item {
 /*  =========================== Media query's ================================= */
 
 @media (min-width:961px) {
+
+
+
     .categorie-tekst {
         display: none;
     }
@@ -962,6 +965,8 @@ img.product-item {
         text-transform: capitalize;
     }
 
+
+/* =========================== einde categorie blokken ===================================== */
 
 
 
