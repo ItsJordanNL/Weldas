@@ -962,6 +962,55 @@ img.product-item {
         text-align: center;
         font-size: 1.8rem;
     }
+
+
+    /*=================== banner desktop productpage ======================*/
+
+    .hero-product-page {
+        height: 25vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .hero-header-productpage {
+        font-size: 3.5rem;
+        letter-spacing: 1.2rem;
+    }
+
+    /*=================== einde banner desktop ======================*/
+
+    .productpage-container {
+        display: flex;
+        margin-left: 20px;
+        margin-top: 50px;
+        justify-content: space-evenly;
+    }
+
+    .filter-items {
+        display: none;
+    }
+
+    .filter-header {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .category-list {
+        list-style: none;
+        padding: 0;
+    }
+
+    #price-value {
+        display: inline-block;
+        margin-left: 10px;
+    }
+
+
+
+    /* ================ filter menu productpage ================= */
+
+
 }
 
 @media (max-width: 960px) {
@@ -974,6 +1023,10 @@ img.product-item {
     }
 
     .contact-desktop {
+        display: none;
+    }
+
+    .filter-sectie {
         display: none;
     }
 }

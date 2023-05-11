@@ -206,9 +206,9 @@
     <!--------------------- Einde Navbar --------------------------->
     <main>
 
-        <header style="background-image: url(images/handschoenbanner.jpeg);" class="hero-product-page">
+        <div style="background-image: url(images/handschoenbanner.jpeg);" class="hero-product-page">
             <h3 class="hero-header-productpage">Handschoenen</h3>
-        </header>
+        </div>
 
         <!---  einde hero -------->
 
@@ -221,6 +221,7 @@
         </div>
 
         <!-------einde home button------->
+
         <div class="filter-items">
             <div class="filter-knop">
                 <img class="filter-icon" src="images/filter.png" alt="">
@@ -257,99 +258,147 @@
 
 
         <!--------- einde top part -------->
+        <div class="productpage-container">
 
-        <div class="product-header">
-            <h3 class="products-h3-header">Producten</h3>
+            <div class="filter-sectie">
+
+                <div class="filter-menu">
+                    <h3 class="filter-header">Maat</h3>
+                    <ul class="category-list">
+                      <li><input type="checkbox" name="category" value="small"> Small</li>
+                      <li><input type="checkbox" name="category" value="medium"> Medium</li>
+                      <li><input type="checkbox" name="category" value="large"> Large</li>
+                    </ul>
+                    <h3 class="filter-header">Certificaten</h3>
+                    <ul class="category-list">
+                      <li><input type="checkbox" name="category" value="small"> Small</li>
+                      <li><input type="checkbox" name="category" value="medium"> Medium</li>
+                      <li><input type="checkbox" name="category" value="large"> Large</li>
+                    </ul>
+                    <h3 class="filter-header">Merk</h3>
+                    <ul class="category-list">
+                      <li><input type="checkbox" name="category" value="small"> Small</li>
+                      <li><input type="checkbox" name="category" value="medium"> Medium</li>
+                      <li><input type="checkbox" name="category" value="large"> Large</li>
+                    </ul>
+                    <h3 class="filter-header">Geslacht</h3>
+                    <ul class="category-list">
+                      <li><input type="checkbox" name="category" value="small"> Small</li>
+                      <li><input type="checkbox" name="category" value="medium"> Medium</li>
+                      <li><input type="checkbox" name="category" value="large"> Large</li>
+                    </ul>
+                  
+                    <h3 class="filter-header">Prijs</h3>
+                    <input type="range" min="0" max="100" step="10" id="price-range">
+                    <span id="price-value"></span>
+                  </div>
+                  
+                  <div id="product-list">
+                    <!-- Hier worden de gefilterde producten weergegeven -->
+                  </div>
+                  
+            </div>
+
+
+            <div class="producten-section">
+
+
+                <div class="product-header">
+                    <h3 class="products-h3-header">Producten</h3>
+                </div>
+
+                <div class="product-container">
+                    <div class="product-item-box">
+                        <a href="" class="product-item-link">
+                            <div class="product-border">
+                                <div class="product-image">
+                                    <img class="product-item" src="productimages/handschoen.png" alt="">
+                                </div>
+                                <div class="product-item-context">
+                                    <h3 class="product-item-title">10-2000</h3>
+                                    <p class="product-item-desc">Originele "BUCKTAN WIJD MODEL", COMFOflex® gevoerde
+                                        lashandschoen
+                                        gemaakt van hoogwaardig split rundleer</p>
+                                    <p class="product-item-certification">EN 12477 (2001+A1:2005) TYPE A</p>
+                                    <p class="product-item-certification">TÜV BP 60153044 0001</p>
+                                    <p class="product-item-certification">TÜV 60399937 003 Kat II </p>
+                                    <p class="product-item-certification">Electrostatisch getest</p>
+                                    <h4 class="product-price">€28,99</h4>
+                                </div>
+                                <div class="bestel-button">
+                                    <button class="winkelwagen-button"><span
+                                            class="winkelwagen-icon material-icons-round">
+                                            shopping_cart
+                                        </span>Bestel nu</button>
+                                    <button class="favoriet-button"><span class="favoriet-icon material-icons-round">
+                                            favorite_border
+                                        </span></button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="product-item-box">
+                        <a href="" class="product-item-link">
+                            <div class="product-border">
+                                <div class="product-image">
+                                    <img class="product-item" src="productimages/jas.png" alt="">
+                                </div>
+                                <div class="product-item-context">
+                                    <h3 class="product-item-title">10-2000</h3>
+                                    <p class="product-item-desc">Originele "BUCKTAN WIJD MODEL", COMFOflex® gevoerde
+                                        lashandschoen
+                                        gemaakt van hoogwaardig split rundleer</p>
+                                    <p class="product-item-certification">EN 12477 (2001+A1:2005) TYPE A</p>
+                                    <p class="product-item-certification">TÜV BP 60153044 0001</p>
+                                    <p class="product-item-certification">TÜV 60399937 003 Kat II </p>
+                                    <p class="product-item-certification">Electrostatisch getest</p>
+                                    <h4 class="product-price">€28,99</h4>
+                                </div>
+                                <div class="bestel-button">
+                                    <button class="winkelwagen-button"><span
+                                            class="winkelwagen-icon material-icons-round">
+                                            shopping_cart
+                                        </span>Bestel nu</button>
+                                    <button class="favoriet-button"><span class="favoriet-icon material-icons-round">
+                                            favorite_border
+                                        </span></button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="product-item-box">
+                        <a href="" class="product-item-link">
+                            <div class="product-border">
+                                <div class="product-image">
+                                    <img class="product-item" src="productimages/handschoen.png" alt="">
+                                </div>
+                                <div class="product-item-context">
+                                    <h3 class="product-item-title">10-2000</h3>
+                                    <p class="product-item-desc">Originele "BUCKTAN WIJD MODEL", COMFOflex® gevoerde
+                                        lashandschoen
+                                        gemaakt van hoogwaardig split rundleer</p>
+                                    <p class="product-item-certification">EN 12477 (2001+A1:2005) TYPE A</p>
+                                    <p class="product-item-certification">TÜV BP 60153044 0001</p>
+                                    <p class="product-item-certification">TÜV 60399937 003 Kat II </p>
+                                    <p class="product-item-certification">Electrostatisch getest</p>
+                                    <h4 class="product-price">€28,99</h4>
+                                </div>
+                                <div class="bestel-button">
+                                    <button class="winkelwagen-button"><span
+                                            class="winkelwagen-icon material-icons-round">
+                                            shopping_cart
+                                        </span>Bestel nu</button>
+                                    <button class="favoriet-button"><span class="favoriet-icon material-icons-round">
+                                            favorite_border
+                                        </span></button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
         </div>
-
-        <div class="product-container">
-            <div class="product-item-box">
-                <a href="" class="product-item-link">
-                    <div class="product-border">
-                        <div class="product-image">
-                            <img class="product-item" src="productimages/handschoen.png" alt="">
-                        </div>
-                        <div class="product-item-context">
-                            <h3 class="product-item-title">10-2000</h3>
-                            <p class="product-item-desc">Originele "BUCKTAN WIJD MODEL", COMFOflex® gevoerde
-                                lashandschoen
-                                gemaakt van hoogwaardig split rundleer</p>
-                            <p class="product-item-certification">EN 12477 (2001+A1:2005) TYPE A</p>
-                            <p class="product-item-certification">TÜV BP 60153044 0001</p>
-                            <p class="product-item-certification">TÜV 60399937 003 Kat II </p>
-                            <p class="product-item-certification">Electrostatisch getest</p>
-                            <h4 class="product-price">€28,99</h4>
-                        </div>
-                        <div class="bestel-button">
-                            <button class="winkelwagen-button"><span class="winkelwagen-icon material-icons-round">
-                                    shopping_cart
-                                </span>Bestel nu</button>
-                            <button class="favoriet-button"><span class="favoriet-icon material-icons-round">
-                                    favorite_border
-                                </span></button>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="product-item-box">
-                <a href="" class="product-item-link">
-                    <div class="product-border">
-                        <div class="product-image">
-                            <img class="product-item" src="productimages/jas.png" alt="">
-                        </div>
-                        <div class="product-item-context">
-                            <h3 class="product-item-title">10-2000</h3>
-                            <p class="product-item-desc">Originele "BUCKTAN WIJD MODEL", COMFOflex® gevoerde
-                                lashandschoen
-                                gemaakt van hoogwaardig split rundleer</p>
-                            <p class="product-item-certification">EN 12477 (2001+A1:2005) TYPE A</p>
-                            <p class="product-item-certification">TÜV BP 60153044 0001</p>
-                            <p class="product-item-certification">TÜV 60399937 003 Kat II </p>
-                            <p class="product-item-certification">Electrostatisch getest</p>
-                            <h4 class="product-price">€28,99</h4>
-                        </div>
-                        <div class="bestel-button">
-                            <button class="winkelwagen-button"><span class="winkelwagen-icon material-icons-round">
-                                    shopping_cart
-                                </span>Bestel nu</button>
-                            <button class="favoriet-button"><span class="favoriet-icon material-icons-round">
-                                    favorite_border
-                                </span></button>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="product-item-box">
-                <a href="" class="product-item-link">
-                    <div class="product-border">
-                        <div class="product-image">
-                            <img class="product-item" src="productimages/handschoen.png" alt="">
-                        </div>
-                        <div class="product-item-context">
-                            <h3 class="product-item-title">10-2000</h3>
-                            <p class="product-item-desc">Originele "BUCKTAN WIJD MODEL", COMFOflex® gevoerde
-                                lashandschoen
-                                gemaakt van hoogwaardig split rundleer</p>
-                            <p class="product-item-certification">EN 12477 (2001+A1:2005) TYPE A</p>
-                            <p class="product-item-certification">TÜV BP 60153044 0001</p>
-                            <p class="product-item-certification">TÜV 60399937 003 Kat II </p>
-                            <p class="product-item-certification">Electrostatisch getest</p>
-                            <h4 class="product-price">€28,99</h4>
-                        </div>
-                        <div class="bestel-button">
-                            <button class="winkelwagen-button"><span class="winkelwagen-icon material-icons-round">
-                                    shopping_cart
-                                </span>Bestel nu</button>
-                            <button class="favoriet-button"><span class="favoriet-icon material-icons-round">
-                                    favorite_border
-                                </span></button>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-        </div>
-
     </main>
     <!--------------einde main ------------------>
 

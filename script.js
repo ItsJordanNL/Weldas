@@ -35,3 +35,33 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+
+
+
+
+const categoryCheckboxes = document.querySelectorAll('input[name="category"]');
+const priceRange = document.getElementById('price-range');
+const priceValue = document.getElementById('price-value');
+const productList = document.getElementById('product-list');
+
+// Eventlistener voor categorie selectie
+categoryCheckboxes.forEach(checkbox => {
+  checkbox.addEventListener('change', updateFilters);
+});
+
+// Eventlistener voor prijsbereik
+priceRange.addEventListener('input', updateFilters);
+
+// Functie om de filters toe te passen
+function updateFilters() {
+  const selectedCategories = Array.from(categoryCheckboxes)
+    .filter(checkbox => checkbox.checked)
+    .map(checkbox => checkbox.value);
+
+  const price = priceRange.value;
+
+  // Voer hier je logica uit om de producten te filteren op basis van de geselecteerde categorieën en prijs
+
+  // Vervang onderstaande code door de logica om de gefilterde producten weer te geven
+  productList.innerHTML = `<p>Geen producten gevonden.</p>`;
+}
