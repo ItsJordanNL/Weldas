@@ -976,6 +976,10 @@ img.product-item {
     .contact-desktop {
         display: none;
     }
+
+    .arrow-down {
+        display: none;
+    }
 }
 
 /* =============================einde media queries ==================================== */
