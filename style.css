@@ -363,7 +363,7 @@ body {
 /*================================== Einde header ============================== */
 
 footer {
-    margin-top: auto;
+    margin-top: 60px;
 }
 
 .footer {
@@ -620,10 +620,6 @@ h2.contact-text {
     font-family: cabin;
     color: var(--color-headings);
     text-transform: uppercase;
-}
-
-.product-item-box {
-    padding-top: 20px;
 }
 
 .product-item-link {
@@ -905,17 +901,15 @@ img.product-item {
     }
 
     .categorie-items {
-        margin: 20px 0px 0px 0px;
+        margin: 30px 0px 0px 0px;
         display: flex;
         justify-content: center;
-        gap: 20px;
-
+        gap: 30px;
     }
 
     .categorie-blok {
         display: flex;
         margin: 0px;
-        height: 300px;
         width: auto;
     }
 
@@ -925,22 +919,28 @@ img.product-item {
 
     .categorie-naam-blok {
         position: relative;
-        top: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
     }
 
     .categorie-image-blok {
-        height: 200px;
+        height: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .categorie-image {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        height: auto;
+        height: 160px;
     }
 
     .categorie-naam {
-        font-size: 20px;
+        font-size: 18px;
         text-transform: capitalize;
     }
 
@@ -950,7 +950,9 @@ img.product-item {
         display: flex;
         gap: 35px;
         flex-wrap: nowrap;
-        padding: 1.25rem;
+        margin-top: 30px;
+        overflow: auto;
+        width: 90%;
     }
 
     .product-item-box {
@@ -960,6 +962,44 @@ img.product-item {
     .product-h3-header {
         text-align: center;
         font-size: 1.8rem;
+    }
+
+    .categorie {
+        margin: 80px 20px 0px 20px;
+    }
+
+    .populaire-producten {
+        margin: 80px 20px 0px 20px;
+    }
+
+    .certificaten-tekst {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .certificaten-blok {
+        margin-right: 25px;
+    }
+    .certificaten-blok:last-child {
+        margin: 0px;
+    }
+
+    .certificaten-items {
+        margin: 30px 0px 0px 0px;
+        justify-content: center;
+    }
+
+    .certificaten {
+        margin: 80px 20px 0px 20px;
+    }
+
+    .product-border {
+        width: 250px;
+    }
+
+    .product-items {
+        display: flex;
+        justify-content: center;
     }
 }
 
