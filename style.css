@@ -828,7 +828,7 @@ img.product-item {
     background: #fff;
     border: none;
     outline: none;
-    cursor: pointer;
+    cursor: initial;
     opacity: 0;
 }
 
