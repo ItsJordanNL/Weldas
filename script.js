@@ -65,3 +65,37 @@ function updateFilters() {
   // Vervang onderstaande code door de logica om de gefilterde producten weer te geven
   productList.innerHTML = `<p>Geen producten gevonden.</p>`;
 }
+
+/* ============================Einde filter===================================== */
+
+
+// JavaScript-code om de breadcrumb-dynamiek bij te werken
+var breadcrumbList = document.querySelector('.breadcrumb ul');
+
+// Leegmaken van de breadcrumb
+breadcrumbList.innerHTML = '';
+
+// Toevoegen van home-link
+var homeItem = document.createElement('li');
+var homeLink = document.createElement('a');
+homeLink.href = '/';
+homeLink.textContent = 'Home';
+homeItem.appendChild(homeLink);
+breadcrumbList.appendChild(homeItem);
+
+// Mapping van paginapaden naar specifieke namen
+var pageMap = {
+  'productpage.html': 'Handschoenen',
+  'category.html': 'Categorie',
+  'otherpage.html': 'Andere Pagina'
+};
+
+// Huidige paginapad verkrijgen
+var currentPage = window.location.pathname.split('/').pop();
+
+// Genereren van breadcrumb-items op basis van het huidige pad
+if (pageMap.hasOwnProperty(currentPage)) {
+  var currentItem = document.createElement('li');
+  currentItem.textContent = pageMap[currentPage];
+  breadcrumbList.appendChild(currentItem);
+}

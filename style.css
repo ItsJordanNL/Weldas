@@ -617,6 +617,7 @@ h2.contact-text {
     font-family: cabin;
     color: var(--color-headings);
     text-transform: uppercase;
+    font-size: 1.5rem;
 }
 
 .product-container {
@@ -982,11 +983,16 @@ img.product-item {
 
     .productpage-container {
         display: flex;
-        margin-left: 20px;
-        margin-top: 50px;
+        margin:50px;
+    }
+
+    .producten-section{
+        padding-left: 10rem;
     }
 
     .filter-menu{
+        padding:30px;
+        border: solid 1px var(--color-edges);
     }
 
     .filter-items {
@@ -994,8 +1000,10 @@ img.product-item {
     }
 
     .filter-header {
-        padding-top: 5px;
+        padding-top: 15px;
         padding-bottom: 5px;
+        text-transform: uppercase;
+        font-family: roboto;
     }
 
     .category-list {
@@ -1008,6 +1016,43 @@ img.product-item {
         margin-left: 10px;
     }
 
+    /* =========================== Einde filter + producten sectie====================================== */ 
+
+    .back-to-home-button{
+        display:none;
+    }
+
+    .breadcrumb {
+        padding: 20px 50px;
+      }
+      
+      .breadcrumb a{
+        color: var(--color-other);
+      }
+
+      .breadcrumb ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        font-size: 1.4rem;
+      }
+      
+      .breadcrumb li {
+        display: inline;
+      }
+      
+      .breadcrumb li:not(:last-child)::after {
+        content: "/";
+        margin: 0 5px;
+        color: #999;
+      }
+      
+      .breadcrumb li:last-child {
+        color: var(--color-headings);
+      }
+      
+
+      /* =========================== einde breadcrumb ========================= */
 
 
     /* ================ filter menu productpage ================= */
