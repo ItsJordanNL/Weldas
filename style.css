@@ -982,6 +982,14 @@ img.product-item {
         width: 90%;
     }
 
+    .product-container-productpage {
+        display: flex;
+        gap:30px 15px;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        overflow: auto;
+    }
+
     .product-item-box {
         width: 300px;
     }

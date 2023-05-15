@@ -38,20 +38,20 @@ for (i = 0; i < coll.length; i++) {
 
 particlesButton.addEventListener("click", () => {
   confetti("tsparticles", {
-      angle: 270,
-      count: 25,
-      position: { x: 52, y: 0 },
-      spread: 270,
-      startVelocity: 300,
-      decay: 0.9,
-      gravity: 8,
-      drift: 0,
-      ticks: 100,
-      colors: ["#ffcd70", "#ffd632"],
-      shapes: ["circle"],
-      scalar: 0.6,
-      zIndex: 2000,
-      disableForReducedMotion: true
+    angle: 270,
+    count: 25,
+    position: { x: 52, y: 0 },
+    spread: 270,
+    startVelocity: 300,
+    decay: 0.9,
+    gravity: 8,
+    drift: 0,
+    ticks: 100,
+    colors: ["#ffcd70", "#ffd632"],
+    shapes: ["circle"],
+    scalar: 0.6,
+    zIndex: 2000,
+    disableForReducedMotion: true
   });
 });
 
@@ -81,10 +81,11 @@ function updateFilters() {
   // Voer hier je logica uit om de producten te filteren op basis van de geselecteerde categorieën en prijs
 
   // Vervang onderstaande code door de logica om de gefilterde producten weer te geven
-  productList.innerHTML = <p>Geen producten gevonden.</p>;
+  productList.innerHTML = `<p>Geen producten gevonden.</p>`;
 }
 
 /* ============================Einde filter===================================== */
+
 
 // JavaScript-code om de breadcrumb-dynamiek bij te werken
 var breadcrumbList = document.querySelector('.breadcrumb ul');
