@@ -563,6 +563,7 @@ h2.contact-text {
     margin: 0px 10px 0px 0px;
     border-radius: var(--border-radius-boxes);
 }
+
 .categorie-blok:last-child {
     margin: 0px;
 }
@@ -990,6 +991,93 @@ img.product-item {
         font-size: 1.8rem;
     }
 
+    /*===================banner desktop productpage======================*/ .hero-product-page {
+        height: 25vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .hero-header-productpage {
+        font-size: 3.5rem;
+        letter-spacing: 1.2rem;
+    }
+
+    /*===================einde banner desktop======================*/ .productpage-container {
+        display: flex;
+        margin: 50px;
+    }
+
+    .producten-section {
+        padding-left: 8rem;
+    }
+
+    .filter-menu {
+        padding: 30px;
+        border: solid 1px var(--color-edges);
+    }
+
+    .filter-items {
+        display: none;
+    }
+
+    .filter-header {
+        padding-top: 15px;
+        padding-bottom: 5px;
+        text-transform: uppercase;
+        font-family: roboto;
+    }
+
+    .category-list {
+        list-style: none;
+        padding: 0;
+    }
+
+    #price-value {
+        display: inline-block;
+        margin-left: 10px;
+    }
+
+    /* =========================== Einde filter + producten sectie======================================*/
+
+    .back-to-home-button {
+        display: none;
+    }
+
+    .breadcrumb {
+        padding: 20px 50px;
+    }
+
+    .breadcrumb a {
+        color: var(--color-other);
+    }
+
+    .breadcrumb ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        font-size: 1.4rem;
+    }
+
+    .breadcrumb li {
+        display: inline;
+    }
+
+    .breadcrumb li:not(:last-child)::after {
+        content: "/";
+        margin: 0 5px;
+        color: #999;
+    }
+
+    .breadcrumb li:last-child {
+        color: var(--color-headings);
+    }
+
+
+    /*=========================== einde breadcrumb ========================= */
+
+    /*================ filter menu productpage ================= */
+
     .categorie {
         margin: 80px 20px 0px 20px;
     }
@@ -1006,6 +1094,7 @@ img.product-item {
     .certificaten-blok {
         margin-right: 25px;
     }
+
     .certificaten-blok:last-child {
         margin: 0px;
     }
