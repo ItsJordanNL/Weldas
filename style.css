@@ -457,7 +457,7 @@ footer {
 
 #content {
     position: absolute;
-    top: 618px;
+    top: 650px;
 }
 
 .certificaten-tekst {
@@ -522,6 +522,9 @@ footer {
     width: 30px;
     height: 70px;
     z-index: 1;
+    background-color: red;
+    opacity: 0.5;
+    display: block;
 }
 
 .contact {
@@ -1157,6 +1160,10 @@ img.product-item {
     }
 
     .arrow-down {
+        display: none;
+    }
+
+    .hitbox-pijltje {
         display: none;
     }
 }
