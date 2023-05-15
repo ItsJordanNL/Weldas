@@ -820,15 +820,15 @@ img.product-item {
 .particleButton {
     position: absolute;
     width: 5px;
-    height: 20px;
-    top: 2px;
-    left: 51.54%;
+    height: 24px;
+    top: 0;
+    left: calc(50% + 24px);
     margin-left: -2.5px;
     z-index: 1000;
     background: #fff;
     border: none;
     outline: none;
-    cursor: initial;
+    cursor: default;
     opacity: 0;
 }
 
