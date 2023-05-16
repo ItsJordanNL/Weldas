@@ -79,9 +79,6 @@ function updateFilters() {
   const price = priceRange.value;
 
   // Voer hier je logica uit om de producten te filteren op basis van de geselecteerde categorieën en prijs
-
-  // Vervang onderstaande code door de logica om de gefilterde producten weer te geven
-  productList.innerHTML = `<p>Geen producten gevonden.</p>`;
 }
 
 /* ============================Einde filter===================================== */
