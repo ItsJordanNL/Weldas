@@ -597,6 +597,7 @@ h2.contact-text {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 10px;
 }
 
 .categorie-naam {
@@ -1041,6 +1042,8 @@ img.product-item {
     .filter-menu {
         padding: 30px;
         border: solid 1px var(--color-edges);
+        position: sticky;
+        top: 170px;
     }
 
     .filter-items {
@@ -1052,6 +1055,15 @@ img.product-item {
         padding-bottom: 5px;
         text-transform: uppercase;
         font-family: roboto;
+        color: var(--color-headings);
+    }
+
+    .filter-options {
+        color: var(--color-text);
+    }
+
+    .filter-header:first-child {
+        padding-top: 0;
     }
 
     .category-list {
