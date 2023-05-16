@@ -40,7 +40,7 @@ particlesButton.addEventListener("click", () => {
   confetti("tsparticles", {
     angle: 270,
     count: 25,
-    position: { x: 52, y: 0 },
+    position: { x: 51, y: 0 },
     spread: 270,
     startVelocity: 300,
     decay: 0.9,

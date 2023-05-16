@@ -109,6 +109,7 @@ body {
     align-items: center;
     height: 3.25vh;
     color: var(--color-text);
+    background-color: #e4c904;
 }
 
 .navbar-panel {
@@ -118,8 +119,10 @@ body {
 .text-top {
     color: var(--color-text);
     text-decoration: none;
-    border-right: solid black 2px;
+    border-right: solid black 1px;
     padding: 0 10px;
+    font-size: 11px;
+    text-transform: uppercase;
 }
 
 .text-top:last-child {
@@ -841,7 +844,7 @@ img.product-item {
     width: 5px;
     height: 24px;
     top: 0;
-    left: calc(50% + 24px);
+    left: calc(50% + 11px);
     margin-left: -2.5px;
     z-index: 1000;
     background: #fff;
@@ -849,6 +852,8 @@ img.product-item {
     outline: none;
     cursor: default;
     opacity: 0;
+    background-color: red;
+    opacity: 0.5;
 }
 
 /* ======================== Einde vonkjes ========================== */
