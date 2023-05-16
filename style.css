@@ -1043,7 +1043,7 @@ img.product-item {
         padding: 30px;
         border: solid 1px var(--color-edges);
         position: sticky;
-        top: 170px;
+        top: 23vh;
     }
 
     .filter-items {
