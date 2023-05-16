@@ -631,6 +631,7 @@ h2.contact-text {
 .product-h3-header {
     font-family: cabin;
     font-size: 1.2rem;
+    padding-bottom: 40px;
     color: var(--color-headings);
 }
 
@@ -1014,6 +1015,7 @@ img.product-item {
     .product-h3-header {
         text-align: center;
         font-size: 1.8rem;
+        padding-bottom: 0px;
     }
 
     /*===================banner desktop productpage======================*/
@@ -1161,6 +1163,18 @@ img.product-item {
         display: none;
     }
 
+    .producten-section{
+        padding:20px;
+    }
+
+    .product-item-box{
+        margin-bottom:40px;
+    }
+
+    .products-h3-header{
+        padding-bottom:20px;
+    }
+
     .categorie-tekst-desktop {
         display: none;
     }
@@ -1175,6 +1189,14 @@ img.product-item {
 
     .hitbox-pijltje {
         display: none;
+    }
+
+    .breadcrumb {
+        display:none;
+    }
+
+    .filter-sectie{
+        display:none;
     }
 }
 
@@ -1225,3 +1247,4 @@ img.product-item {
 }
 
 /* ========================== Arrow animatie ======================================= */
+
