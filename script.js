@@ -106,7 +106,7 @@ var pageMap = {
 };
 
 // Huidige paginapad verkrijgen
-var currentPage = window.location.pathname.split('/').pop();
+var currentPage = window.location.pathname.split('index.html').pop();
 
 // Genereren van breadcrumb-items op basis van het huidige pad
 if (pageMap.hasOwnProperty(currentPage)) {
