@@ -93,7 +93,7 @@ breadcrumbList.innerHTML = '';
 // Toevoegen van home-link
 var homeItem = document.createElement('li');
 var homeLink = document.createElement('a');
-homeLink.href = '/';
+homeLink.href = 'index.html';
 homeLink.textContent = 'Home';
 homeItem.appendChild(homeLink);
 breadcrumbList.appendChild(homeItem);
@@ -106,7 +106,7 @@ var pageMap = {
 };
 
 // Huidige paginapad verkrijgen
-var currentPage = window.location.pathname.split('index.html').pop();
+var currentPage = window.location.pathname.split('/').pop();
 
 // Genereren van breadcrumb-items op basis van het huidige pad
 if (pageMap.hasOwnProperty(currentPage)) {
